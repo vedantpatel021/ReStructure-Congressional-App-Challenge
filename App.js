@@ -72,7 +72,7 @@ export default function App() {
     
   ])
   
-  var GEOURL1 = 'http://api.positionstack.com/v1/reverse?access_key=21972469fdbb5865baba1ff58cce69d5&query=';
+  var GEOURL1 = 'http://api.positionstack.com/v1/reverse?access_key=(APIKEY)&query=';
 
   useEffect(() => {
     if (mount && latitude != null && longitude != null){
